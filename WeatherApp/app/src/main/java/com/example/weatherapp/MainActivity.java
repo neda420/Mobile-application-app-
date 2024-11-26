@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     private void fetchWeather(String city) {
         // Create WeatherService instance
         WeatherService service = ApiClient.getClient().create(WeatherService.class);
-        Call<WeatherResponse> call = service.getWeather(city, "d9b60cd6a31ee04a89c737740e6e94cf"); // Replace with your OpenWeather API key
+        Call<WeatherResponse> call = service.getWeather(city, "d9b60cd6a31ee04a89c737740e6e94cf"); 
 
         // Enqueue the API call
         call.enqueue(new Callback<WeatherResponse>() {
