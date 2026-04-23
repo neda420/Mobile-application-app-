@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btnCounter"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_counter"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnTodo"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_todo"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnWeather"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_weather"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_calculator"
+        android:textSize="16sp" />
+
+</LinearLayout>
