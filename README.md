@@ -8,7 +8,7 @@ All assignments for Mobile App Development, combined into a single production-re
 
 | Branch | Folder | Feature |
 |---|---|---|
-| `Assignment-1` | `Assignment13/` | Counter app (Toast + click counter) |
+| `Assignment-1` | `Assignment13/` | Counter app (Toast + click counter) — folder named `Assignment13` by original author |
 | `Assignment-2` | `ToDoListApp/` | To-Do List app (add/remove tasks) |
 | `Assignment-3` | `WeatherApp/` | Weather app (OpenWeatherMap API + Retrofit2) |
 | `Midterm-project` | `Calculator2/` | Calculator app (+, -, *, /, parentheses) |
